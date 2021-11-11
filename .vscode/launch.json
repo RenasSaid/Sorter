@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SortMain",
+            "request": "launch",
+            "mainClass": "Sorter.SortMain",
+            "projectName": "Sorter_33eaad70",
+            "args": [
+                "76",
+                "11",
+                "-55",
+                "2",
+                "16",
+                "-21",
+                "7",
+                "88",
+                "0"
+            ]
+        }  
+    ]
+}
