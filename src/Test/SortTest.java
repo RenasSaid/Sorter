@@ -41,7 +41,7 @@ public class SortTest {
 
     public static boolean testSorterMain1(){
         Sorter s = new Sorter();
-        int[] arrList = {337, 765, 525, 234};
+        int[] arrList = {6, 337, 765, 525, 234};
         int[] result = s.sort(arrList);
         int[] expected = {6, 234, 337, 525, 765};
         for (int i = 0; i < result.length; i++) {
