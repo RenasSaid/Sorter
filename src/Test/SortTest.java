@@ -85,9 +85,9 @@ public class SortTest {
 
     public static boolean testSorterMain4(){
         Sorter s = new Sorter();
-        int[] arrList = {6, 337, 765, 525, 234};
+        int[] arrList = {76, 11, -55, 2, 16, -21, 7, 88};
         int[] result = s.sort(arrList);
-        int[] expected = {6, 234, 337, 525, 765};
+        int[] expected = {-55, -21, 2, 7, 11, 16, 76, 88};
         for (int i = 0; i < result.length; i++) {
             if (result[i] != expected[i]){
                 System.out.println("Test4 Failed");
@@ -100,9 +100,9 @@ public class SortTest {
 
     public static boolean testSorterMain5(){
         Sorter s = new Sorter();
-        int[] arrList = {6, 337, 765, 525, 234};
+        int[] arrList = {99, -99, 0, 999, -999, 1000, -1000};
         int[] result = s.sort(arrList);
-        int[] expected = {6, 234, 337, 525, 765};
+        int[] expected = {-1000, -999, -99, 0, 99, 999, 1000};
         for (int i = 0; i < result.length; i++) {
             if (result[i] != expected[i]){
                 System.out.println("Test5 Failed");
