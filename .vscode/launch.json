@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SortTest",
+            "request": "launch",
+            "mainClass": "Test.SortTest",
+            "projectName": "Sorter_33eaad70"
+        },
+        {
+            "type": "java",
             "name": "Launch SortMain",
             "request": "launch",
             "mainClass": "Sorter.SortMain",
@@ -18,7 +25,6 @@
                 "88",
                 "0"
             ]
-        }  
-
+        }
     ]
 }
